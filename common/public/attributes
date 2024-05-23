@@ -6,3 +6,6 @@ attribute rw_fs_type;
 
 # Tag for read/execute filesystem type
 attribute rx_fs_type;
+
+# Samsung Powershare
+hal_attribute(samsung_powershare)

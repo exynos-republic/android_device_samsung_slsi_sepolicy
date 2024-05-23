@@ -1,0 +1,6 @@
+type powershare_app, domain;
+
+app_domain(powershare_app)
+
+binder_call(powershare_app, hal_samsung_powershare)
+allow powershare_app hal_samsung_powershare_hwservice:hwservice_manager find;
