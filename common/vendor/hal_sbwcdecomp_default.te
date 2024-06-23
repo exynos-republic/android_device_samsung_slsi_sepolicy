@@ -1,0 +1,4 @@
+# hal_sbwcdecomp_default.te
+
+type hal_sbwcdecomp_default, domain;
+init_daemon_domain(hal_sbwcdecomp_default)
