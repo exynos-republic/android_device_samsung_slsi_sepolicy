@@ -9,9 +9,6 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/samsung_slsi/sepolicy/common/private
 
 BOARD_VENDOR_SEPOLICY_DIRS += \
-    device/samsung_slsi/sepolicy/common/dynamic
-
-BOARD_VENDOR_SEPOLICY_DIRS += \
     device/samsung_slsi/sepolicy/common/vendor
 
 ifeq ($(BOARD_SEPOLICY_TEE_FLAVOR),teegris)
