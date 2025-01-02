@@ -26,3 +26,6 @@ vendor.security.vaultkeeper    u:object_r:vendor_vaultkeeper_prop:s0
 ### wifi
 vendor.wifi.                   u:object_r:vendor_wifi_prop:s0
 ro.vendor.wifi.                u:object_r:vendor_wifi_prop:s0
+
+# NFC
+ro.vendor.nfc.          u:object_r:vendor_sec_nfc_prop:s0
